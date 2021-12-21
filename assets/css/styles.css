@@ -805,6 +805,20 @@ img{
     color: var(--rojo);
 }
 
+.portfolio_button {
+    margin-bottom: 2px;
+}
+
+.buttons_javascript{
+    display:flex;
+    justify-content:space-between;
+}
+
+.portfolio_big,
+.portfolio_xl {
+    display: none;
+}
+
 .portfolio_button:hover .button_icon{
     transform: translateX(.25rem);
 }
@@ -1326,6 +1340,13 @@ img{
         align-items: center;
     }
 
+    .portfolio_little{
+        display: none;
+    }
+    .portfolio_big {
+        display: block;
+    }
+
     .project{
         text-align: initial;
     }
@@ -1463,6 +1484,16 @@ img{
         display: block;
         margin-left: 70px;
         margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .portfolio_little,
+    .portfolio_big {
+        display: none;
+    }
+    .portfolio_xl {
+        display: block;
     }
 }
 /* For xx-large devices */
