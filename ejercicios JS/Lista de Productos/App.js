@@ -18,7 +18,7 @@ class UI {
                 <div class="card-body d-flex justify-content-between align-items-center">
                     <div><strong>Nombre</strong>: ${product.name}</div>
                     <div><strong>Precio</strong>: ${product.price}</div>
-                    <div><strong>Año del Producto</strong>: ${product.year}</div>
+                    <div><strong>Año</strong>: ${product.year}</div>
                     <a href='#' class="btn btn-danger" name="delete">Borrar</a>
                 </div>
             </div>
