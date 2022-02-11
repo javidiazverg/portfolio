@@ -526,10 +526,10 @@ img{
     width: 90%;
 }
 .skills_js{
-    width: 70%;
+    width: 75%;
 }
 .skills_react{
-    width: 60%;
+    width: 75%;
 }
 .skills_git{
     width: 75%;
@@ -1494,6 +1494,9 @@ img{
     }
     .portfolio_xl {
         display: block;
+    }
+    a.button.button--flex.button--small.portfolio_button {
+        margin: 5px;
     }
 }
 /* For xx-large devices */
